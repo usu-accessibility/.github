@@ -38,12 +38,12 @@ body:
         - Standalone Application
         - Other
       default: 0
-    validation:
+    validations:
       required: true
   - type: input
     id: link
     attributes:
       label: Issue Page
       description: A url of the page with problem.
-    validation:
+    validations:
       required: false
