@@ -1,0 +1,26 @@
+name: Feature Request
+description: File a feature request.
+title: "[Feature]: "
+labels: ["enhancement"]
+projects: ["usu-accessibility/6"]
+body:
+  - type: textarea
+    id: requested-feature
+    attributes:
+      label: Requested Feature
+      description: Please explain in detail what the feature is and how it would work.
+    validations:
+      required: true
+  - type: dropdown
+      id: priority
+      attributes:
+        label: Feature Priority
+        options:
+          - ASAP
+          - High
+          - Medium
+          - Low
+          - No Priority
+        default: 3
+      validations:
+        required: true
